@@ -2,10 +2,6 @@ p {
     font-family: Poppins;
 }
 
-body {
-    background-color: rgb(218, 218, 218);
-}
-
 #navbar {
     position: fixed;
     width: 100%;
@@ -13,15 +9,30 @@ body {
     z-index: 2;
 }
 
-
-
 .jumbotron {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+.jumbotron,
+h1,
+h2 {
+    font-family: Ubuntu;
+}
+
 .tema {
     margin: 10px 10px;
+}
+
+.artikel {
+    padding-top: 50px;
+}
+
+.artikel img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 0 auto;
 }
 
 .card-deck {
@@ -51,5 +62,11 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+}
+
+@media only screen and (min-device-width:576px) {
+    .artikel img {
+        width: 80%;
     }
 }
