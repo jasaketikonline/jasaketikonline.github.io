@@ -79,3 +79,11 @@ h2 {
         width: 80%;
     }
 }
+
+@media only screen and (min-device-width:320px) {
+
+    .card p,
+    h5 {
+        font-size: medium;
+    }
+}
