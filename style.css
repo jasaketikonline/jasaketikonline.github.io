@@ -1,5 +1,6 @@
-body {
-    background-color: aliceblue;
+body,
+#navbar {
+    background-image: linear-gradient(to right, #0909a8, rgb(211, 9, 177));
 }
 
 html {
@@ -17,9 +18,16 @@ p {
     z-index: 3;
 }
 
+.navbar {
+    box-shadow: 0 1px 5px black;
+}
+
+
+
 .jumbotron {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: transparent;
 }
 
 .jumbotron,
