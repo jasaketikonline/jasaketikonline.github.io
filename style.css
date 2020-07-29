@@ -34,7 +34,7 @@ p {
 }
 
 .navbar {
-    box-shadow: 0 1px 5px black;
+    box-shadow: 0 0.5px 2px rgb(175, 175, 175);
 }
 
 .nav-link {
@@ -63,15 +63,9 @@ p {
 }
 
 .sidebar-kanan,
-.artikel-inti {
-    background-color: rgba(88, 88, 88, 0.2);
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
+.artikel-inti,
 .bungkus-tema {
-    background-color: rgba(88, 88, 88, 0.2);
+    background-color: rgba(88, 88, 88, 0.5);
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -102,7 +96,11 @@ p {
 }
 
 .bungkus-kontributor {
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: #0f011d;
+}
+
+.footer {
+    background-color: rgba(88, 88, 88, 0.5);
 }
 
 
