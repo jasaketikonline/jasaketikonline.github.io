@@ -1,6 +1,6 @@
 body,
 #navbar {
-    background-color: #0f011d;
+    background-color: rgb(25, 1, 41);
 }
 
 hr {
@@ -95,9 +95,6 @@ p {
     width: 46%;
 }
 
-.bungkus-kontributor {
-    background-color: #0f011d;
-}
 
 .footer {
     background-color: rgba(88, 88, 88, 0.5);
