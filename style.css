@@ -47,6 +47,13 @@ p {
     background-color: transparent;
 }
 
+.tombol {
+    border-radius: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 2px 3px rgb(175, 175, 175);
+}
+
 .artikel {
     padding-top: 50px;
 }
