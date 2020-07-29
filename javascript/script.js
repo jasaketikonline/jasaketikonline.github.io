@@ -13,7 +13,7 @@ function scrollFunction() {
 }
 
 function scrollFunctionBtn() {
-    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("myBtn").style.right = "16px";
         document.getElementById("myBtn").style.bottom = "40px";
     } else {
