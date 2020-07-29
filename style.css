@@ -47,10 +47,6 @@ p {
     background-color: transparent;
 }
 
-.tema {
-    margin: 10px 10px;
-}
-
 .artikel {
     padding-top: 50px;
 }
@@ -68,6 +64,12 @@ p {
     background-color: rgba(88, 88, 88, 0.5);
     border-radius: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bungkus-tema {
+    background-color: rgba(120, 120, 120, 0.7);
+    border-radius: 10px;
     padding-bottom: 10px;
 }
 
