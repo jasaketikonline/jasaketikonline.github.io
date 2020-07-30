@@ -314,6 +314,23 @@ p {
     /* Akhir Animate */
 }
 
+@media (max-width:425px) {
+    .card-body p {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:375px) {
+    .jumbotron h1 {
+        font-size: 32px;
+    }
+
+    .jumbotron h2 {
+        font-size: 25px;
+    }
+}
+
 @media (max-width:326px) {
     /* Animate */
 
@@ -366,4 +383,8 @@ p {
     }
 
     /* Akhir Animate */
+
+    .card-body h5 {
+        font-size: 14px;
+    }
 }
