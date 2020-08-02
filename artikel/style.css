@@ -1,0 +1,20 @@
+.product {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bungkus-product {
+    background-color: rgba(88, 88, 88, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.bungkus-menu-product {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 5px;
+}
+
+.tombol-product {
+    background-image: linear-gradient(to bottom, rgb(255, 94, 0), rgb(255, 0, 0));
+    color: white;
+}
