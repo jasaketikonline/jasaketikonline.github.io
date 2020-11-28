@@ -9,7 +9,7 @@ a:link {
 }
 
 hr {
-    background-color: rgb(15, 10, 10);
+    background-color: rgb(170, 170, 170);
 }
 
 html {
@@ -56,23 +56,6 @@ p {
     font-family: Poppins;
 }
 
-.menu-tema {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.tema {
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 40px;
-}
-
-.icon-tema img {
-    width: 50px;
-    height: 50px;
-}
-
 .jumbotron {
     padding-top: 100px;
     padding-bottom: 5px;
@@ -89,51 +72,6 @@ p {
     padding-bottom: 1px;
     box-shadow: 0 2px 3px rgb(175, 175, 175);
     text-transform: uppercase;
-}
-
-.breadcrumb {
-    background-color: rgba(95, 95, 95, 0.3);
-    color: white;
-}
-
-.artikel {
-    padding-top: 50px;
-}
-
-.artikel img {
-    display: block;
-    width: 30%;
-    height: 30%;
-    margin: 0 auto 0 auto;
-}
-
-.sidebar-kanan,
-.artikel-inti,
-.bungkus-tema,
-.socialMediaShare {
-    background-color: rgba(88, 88, 88, 0.5);
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.sidebar-kanan li a {
-    font-family: Poppins;
-}
-
-.bungkus-tema {
-    background-color: rgba(120, 120, 120, 0.5);
-    border-radius: 10px;
-    padding-bottom: 10px;
-}
-
-.menu-tema img,
-.artikel-inti img {
-    margin-bottom: 10px;
-}
-
-.sidebar-kanan li {
-    list-style: none;
 }
 
 .card-deck {
@@ -156,16 +94,42 @@ p {
     width: 46%;
 }
 
-.kontributor {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .footer {
     background-color: rgba(88, 88, 88, 0.5);
     text-align: center;
     margin-top: 20px;
     padding: 30px;
+}
+
+.artikel {
+    padding-top: 50px;
+}
+
+.sidebar-kanan,
+.artikel-inti,
+.socialMediaShare,
+.home-blog {
+    background-color: rgba(88, 88, 88, 0.5);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home-blog {
+    margin-bottom: 5px;
+}
+
+li {
+    font-family: Poppins;
+}
+
+.sidebar-kanan {
+    list-style: none;
+}
+
+
+.artikel-inti img {
+    margin-bottom: 10px;
 }
 
 .socialMediaShare {
@@ -260,68 +224,21 @@ p {
     .backgroundHome {
         background-image: url(img/dot_background.png);
         background-repeat: no-repeat;
-        background-position: left bottom;
+        background-position: right bottom;
+        transform: rotate(180deg);
         height: 130px;
         margin-top: 25px;
     }
 
-    /* Animate */
-
-    #animasi1 {
-        width: 35px;
-        height: 35px;
-        border: 8px solid rgb(200, 117, 248);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: 105px;
-        top: 160px;
-        box-shadow: 5px 0 10px rgb(248, 224, 117);
-        transform: rotate(-45deg);
-        animation: mymove 5s infinite;
+    .backgroundContact {
+        background-image: url(img/dot_background.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        transform: rotateY(0deg);
+        height: 130px;
+        margin: -30px auto 10px auto;
     }
 
-    #animasi2 {
-        width: 23px;
-        height: 23px;
-        border: 5px solid rgb(248, 224, 117);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: 85px;
-        top: 200px;
-        box-shadow: 5px 0 10px rgb(200, 117, 248);
-        transform: rotate(-45deg);
-        animation: mymove 5s infinite;
-    }
-
-    #animasi3 {
-        width: 29px;
-        height: 29px;
-        border: 7px solid rgb(248, 121, 117);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: 155px;
-        top: 170px;
-        box-shadow: 5px 0 10px rgb(176, 248, 117);
-        transform: rotate(-45deg);
-        animation: mymove 5s infinite;
-    }
-
-    @keyframes mymove {
-        50% {
-            -webkit-transform-origin: -150% -150% 0;
-        }
-    }
-
-    /* Akhir Animate */
-}
-
-@media only screen and (min-device-width:576px) {
-    .artikel img {
-        width: 80%;
-    }
 }
 
 @media only screen and (min-device-width:320px) {
@@ -330,60 +247,6 @@ p {
     h5 {
         font-size: medium;
     }
-}
-
-@media (max-width:767px) {
-    /* Animate */
-
-    #animasi1 {
-        width: 35px;
-        height: 35px;
-        border: 8px solid rgb(200, 117, 248);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: 105px;
-        top: 100px;
-        box-shadow: 5px 0 10px rgb(248, 224, 117);
-        transform: rotate(-45deg);
-        animation: mymove 5s infinite;
-    }
-
-    #animasi2 {
-        width: 23px;
-        height: 23px;
-        border: 5px solid rgb(248, 224, 117);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: 65px;
-        top: 130px;
-        box-shadow: 5px 0 10px rgb(200, 117, 248);
-        transform: rotate(-45deg);
-        animation: mymove 5s infinite;
-    }
-
-    #animasi3 {
-        width: 29px;
-        height: 29px;
-        border: 7px solid rgb(248, 121, 117);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: 155px;
-        top: 115px;
-        box-shadow: 5px 0 10px rgb(176, 248, 117);
-        transform: rotate(-45deg);
-        animation: mymove 5s infinite;
-    }
-
-    @keyframes mymove {
-        50% {
-            -webkit-transform-origin: 120% 160% 0;
-        }
-    }
-
-    /* Akhir Animate */
 }
 
 @media (max-width:425px) {
@@ -409,69 +272,102 @@ p {
 
 @media (max-width:326px) {
 
-    .footer p {
-        font-size: 13px;
-    }
-
     .jumbotron {
         padding-top: 70px;
         padding-bottom: 70px;
         background-color: transparent;
+        margin-bottom: 30px;
     }
-
-    /* Animate */
-
-    #animasi1 {
-        width: 35px;
-        height: 35px;
-        border: 8px solid rgb(200, 117, 248);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: 105px;
-        top: 80px;
-        box-shadow: 5px 0 10px rgb(248, 224, 117);
-        transform: rotate(-45deg);
-        animation: mymove 5s infinite;
-    }
-
-    #animasi2 {
-        width: 23px;
-        height: 23px;
-        border: 5px solid rgb(248, 224, 117);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: 65px;
-        top: 100px;
-        box-shadow: 5px 0 10px rgb(200, 117, 248);
-        transform: rotate(-45deg);
-        animation: mymove 5s infinite;
-    }
-
-    #animasi3 {
-        width: 29px;
-        height: 29px;
-        border: 7px solid rgb(248, 121, 117);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: 155px;
-        top: 95px;
-        box-shadow: 5px 0 10px rgb(176, 248, 117);
-        transform: rotate(-45deg);
-        animation: mymove 5s infinite;
-    }
-
-    @keyframes mymove {
-        50% {
-            -webkit-transform-origin: 100% 130% 0;
-        }
-    }
-
-    /* Akhir Animate */
 
     .card-body h5 {
         font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:357px) {
+    .navbar-brand {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:335px) {
+    .navbar-brand {
+        font-size: 22px;
+    }
+}
+
+.product,
+.checkout,
+.contact,
+.testimonials {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.bungkus-product {
+    background-color: rgba(88, 88, 88, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.bungkus-menu-product {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 5px;
+}
+
+.tombol-product {
+    background-image: linear-gradient(to bottom, rgb(255, 94, 0), rgb(255, 0, 0));
+    color: white;
+}
+
+.bungkus-contact {
+    text-align: center;
+    margin-top: -70px;
+}
+
+.bungkus-contact img {
+    margin-bottom: 10px;
+}
+
+.contact-sosmed {
+    margin-bottom: 50px;
+}
+
+.bungkus-testimonials {
+    background-color: rgba(88, 88, 88, 0.5);
+    border-radius: 5px;
+}
+
+.isiTestimonialsLengkap h5,
+.isiTestimonialsLengkap p {
+    color: black;
+}
+
+.contact-sosmed img:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgb(170, 170, 170);
+}
+
+#hubungi-wa img {
+    width: 50px;
+    height: 50px;
+}
+
+#hubungi-wa {
+    display: block;
+    right: 15px;
+    bottom: 40px;
+    position: fixed;
+    z-index: 100;
+}
+
+@media (max-width:367px) {
+    .footer p {
+        font-size: 13px;
     }
 }
