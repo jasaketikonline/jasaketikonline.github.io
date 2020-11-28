@@ -9,7 +9,7 @@ a:link {
 }
 
 hr {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(15, 10, 10);
 }
 
 html {
@@ -75,7 +75,7 @@ p {
 
 .jumbotron {
     padding-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 5px;
     background-color: transparent;
 }
 
@@ -91,6 +91,11 @@ p {
     text-transform: uppercase;
 }
 
+.breadcrumb {
+    background-color: rgba(95, 95, 95, 0.3);
+    color: white;
+}
+
 .artikel {
     padding-top: 50px;
 }
@@ -104,7 +109,8 @@ p {
 
 .sidebar-kanan,
 .artikel-inti,
-.bungkus-tema {
+.bungkus-tema,
+.socialMediaShare {
     background-color: rgba(88, 88, 88, 0.5);
     border-radius: 10px;
     padding-top: 10px;
@@ -162,6 +168,25 @@ p {
     padding: 30px;
 }
 
+.socialMediaShare {
+    background-color: rgba(88, 88, 88, 0.5);
+    border-radius: 10px;
+    overflow: auto;
+    margin-bottom: 24px;
+}
+
+
+.socialMediaShare h4 {
+    margin-left: 1%;
+}
+
+.socialMediaShare a img {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: auto 1% 5px 1%;
+}
 
 /* Scroll top button */
 #myBtn img {
@@ -230,6 +255,14 @@ p {
         height: 200px;
         margin-bottom: -195px;
         margin-top: 50px;
+    }
+
+    .backgroundHome {
+        background-image: url(img/dot_background.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        height: 130px;
+        margin-top: 25px;
     }
 
     /* Animate */
@@ -357,6 +390,10 @@ p {
     .card-body p {
         font-size: 10px;
     }
+
+    .jumbotron {
+        margin-bottom: 70px;
+    }
 }
 
 
@@ -371,6 +408,10 @@ p {
 }
 
 @media (max-width:326px) {
+
+    .footer p {
+        font-size: 13px;
+    }
 
     .jumbotron {
         padding-top: 70px;
@@ -388,7 +429,7 @@ p {
         display: block;
         position: absolute;
         left: 105px;
-        top: 110px;
+        top: 80px;
         box-shadow: 5px 0 10px rgb(248, 224, 117);
         transform: rotate(-45deg);
         animation: mymove 5s infinite;
@@ -402,7 +443,7 @@ p {
         display: block;
         position: absolute;
         left: 65px;
-        top: 130px;
+        top: 100px;
         box-shadow: 5px 0 10px rgb(200, 117, 248);
         transform: rotate(-45deg);
         animation: mymove 5s infinite;
@@ -416,7 +457,7 @@ p {
         display: block;
         position: absolute;
         left: 155px;
-        top: 120px;
+        top: 95px;
         box-shadow: 5px 0 10px rgb(176, 248, 117);
         transform: rotate(-45deg);
         animation: mymove 5s infinite;
